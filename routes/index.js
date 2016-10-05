@@ -12,5 +12,10 @@ router.get('/About Me', function(req, res, next) {
   res.render('About Me', { title: 'About Me' });
 });
 
+/*GET contactMe Page */
+router.get('/contactMe', function(req, res, next) {
+  res.render('contactMe', { title: 'contactMe' });
+});
+
 
 module.exports = router;
